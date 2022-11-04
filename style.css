@@ -1,0 +1,109 @@
+body {
+  background-image: url('image/bg2.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+form{
+  margin-bottom: 0px;
+}
+/* navbar css */
+.navbar{
+  margin:15px 30px;
+  padding:20px;
+  opacity: .9;
+  border-radius: 25px;
+}
+.navbar img{
+  border-radius: 25px;
+}
+.nav-item{
+  padding-right: 20px;
+}
+/* second */
+.second{
+  margin:auto;
+  justify-content: space-around;
+  display: flex;
+  width:400px;
+  height:600px ;
+
+ backdrop-filter: blur(5px);
+ 
+}
+.second:hover{
+  box-shadow:  5px 10px 18px #000000;
+  border:0px;
+}
+h3{
+  margin-bottom: 15px;
+}
+.sign-up{
+  text-align: center;
+  margin: auto;
+}
+input{
+  border:0px;
+  border-radius: 25px;
+  background-color: #EAEAEA;
+  padding: 10px;
+  
+}
+.up-foot{
+  text-align: center;
+  margin: 0px auto;
+}
+/* third */
+.third{
+  margin: 150px auto 100px auto;
+  justify-content: space-around;
+  display: flex;
+  width:300px;
+  height:200px ;
+  backdrop-filter: blur(5px);
+  display: none;
+}
+.third:hover{
+  box-shadow: 5px 10px 18px #000000;
+  border:0px;
+}
+#footer{
+  text-align: center;
+  background-color: gray;
+  padding:5px 0px;
+  border-radius: 25px;
+  margin:20px 5px 5px 5px;
+}
+#footer>i{
+  padding-left: 5px;
+  padding-right: 5px;
+  opacity: .7;
+}
+#footer>i:hover{
+  opacity: 1.5;
+}
+
+#footer>a:visited{
+  color:black;
+
+}
+#footer>a:hover{
+  color:black;
+opacity: 1.5;
+}
+#footer>a:link{
+  color: black;
+  opacity:.7;
+}
+a img{
+  border-radius: 100%;
+}
+h6{
+  margin:10px;
+}
+.up-foot a{
+  margin:10px;
+}
+.up-foot .btn{
+  margin:10px;
+}

@@ -1,0 +1,82 @@
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="icon" type="image/png" sizes="32X32" href="image/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="main">
+
+  <nav class="navbar bg-light navbar-expand-lg navbar-light  ">
+    <a class="navbar-brand" href="">
+      <img src="image/logo.jfif" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+      <ul class="navbar-nav justify-content-end " style=" width:100%;">
+        <li class="nav-item">
+          <a class="nav-link" href="#signup">Sign Up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#signin">Sign In</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="second">
+    <div class="sign-up" id="signup">
+      <h3>Enter Your Creditentials</h3>
+      <form action="">
+        <input type="text" placeholder="Your Name" required><br><br>
+        <input type="tel" maxlength="14" value="+91 " required><br><br>
+        <input type="email" placeholder="Your E-mail"><br><br>
+        <input type="password" placeholder="password" maxlength="10" minlength="6"><br><br>
+        <button type="button" class="btn btn-light">Submit</button>
+      </form>
+      <br>
+      <div class="up-foot">
+        <h6>Other apps to sign in </h6>
+        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-586449736%3A1666309543556404&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession"><img src="image/g.png" width="40px" alt=""></a>
+        <a href="https://www.facebook.com/login/"><img src="image/fb.png" width="40px" alt=""></a><br>
+        <div id="loginBt"><button type="button" class="btn btn-outline-dark">Log in </button></div>
+      </div>
+    </div>
+
+    <div class="sign-up" id="login" style="display:none">
+      <h3>Enter Your Creditentials</h3>
+      <form action="">
+
+        <input type="email" placeholder="Your E-mail" required><br><br>
+        <input type="password" placeholder="password" maxlength="10" minlength="6" required><br><br>
+        <button type="button" class="btn btn-light">Submit</button>
+      </form>
+      <br>
+      <div class="up-foot">
+        <h6>Other apps to sign in </h6>
+        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-586449736%3A1666309543556404&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession"><img src="image/g.png" width="40px" alt=""></a>
+        <a href="https://www.facebook.com/login/"><img src="image/fb.png" width="40px" alt=""></a>
+        <div id="signupBt"><button type="button" class="btn btn-outline-dark">sign up</button></div>
+      </div>
+    </div>
+
+  </div>
+  <div id="footer">
+    <a href="https://instagram.com/shiv_raj_gupta?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+    <i class="fa-brands fa-facebook"></i>
+    <a href="mailto:shivragupta110804@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    <i class="fa-brands fa-twitter"></i>
+    <p>© Copyright by shivraj </p>
+
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
